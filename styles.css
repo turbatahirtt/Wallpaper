@@ -1,0 +1,45 @@
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
+
+.btn .caret {
+  margin-left: 5px;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.skyline-container, .pattern {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background: transparent;
+}
+
+/* background: linear-gradient(to bottom, #87CEEB 30%, #e1c45e 80%); */
+
+/* .sky-gradient-20 { background: linear-gradient(to bottom, #071B26 0%,#071B26 30%,#8A3B12 80%,#240E03 100%); } */
