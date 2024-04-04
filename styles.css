@@ -8,13 +8,10 @@
   margin-top: -1px;
 }
 
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+.top-left {
   z-index: 200;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .btn .caret {
@@ -30,7 +27,7 @@
   background: transparent;
 }
 
-.skyline-container, .pattern {
+.skyline-container, .pattern, .animals-container {
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -39,7 +36,3 @@
   pointer-events: none;
   background: transparent;
 }
-
-/* background: linear-gradient(to bottom, #87CEEB 30%, #e1c45e 80%); */
-
-/* .sky-gradient-20 { background: linear-gradient(to bottom, #071B26 0%,#071B26 30%,#8A3B12 80%,#240E03 100%); } */

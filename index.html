@@ -8,10 +8,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="./jquery_functions.js"></script>
   <title> Create your own wallpaper </title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
 <body>
    <div class="main">
-    <div class="centered">                                      
+    <div class="top-left">                                      
       <div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select theme<span class="caret"></span></button>
         <ul class="dropdown-menu">
@@ -21,11 +22,13 @@
             <a class="test" tabindex="-1" href="#">Next Step<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a class="item sun" tabindex="-1" href="#">Sun</a></li>
+              <li><a class="item moon" tabindex="-1" href="#">Moon</a></li>
               <li class="dropdown-submenu">
                 <a class="test" href="#">Next Step<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a class="item image" tabindex="-1" href="#">Clouds</a></li>
                   <li><a class="item image" tabindex="-1" href="#">Stars</a></li>
+                  <li><a class="item image" tabindex="-1" href="#">Multicolored Stars</a></li>
                   <li class="dropdown-submenu">
                     <a class="test" href="#">Next Step<span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -33,6 +36,17 @@
                       <li><a class="item skyline" href="#">Nature 2</a></li>
                       <li><a class="item skyline" href="#">Urban 1</a></li>
                       <li><a class="item skyline" href="#">Urban 2</a></li>
+                      <li><a class="item skyline" href="#">Desert 1</a></li>
+                      <li><a class="item skyline" href="#">Desert 2</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="test" href="#">Next Step<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a class="item animals" href="#">Camels</a></li>
+                          <li><a class="item animals" href="#">Giraffe</a></li>
+                          <li><a class="item animals" href="#">Lion</a></li>
+                          <li><a class="item animals" href="#">Wolf</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -45,5 +59,6 @@
    </div>
    <div class="pattern"></div>
    <div class="skyline-container"></div>
+   <div class="animals-container"></div>
 </body>
 </html>
